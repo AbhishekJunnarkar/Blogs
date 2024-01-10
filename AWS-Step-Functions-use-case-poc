@@ -1,0 +1,11 @@
+In this simple example using AWS Step-Funtions I am going to realize a Approval workflow process for a use-case that involves metadata content creation, human approval or rejection and moving the metadata to active state.
+
+Step
+- Create content
+- State: Draft
+Step 
+- Approve content 
+- State: Draft to Review
+Step
+- Publish content
+- State: Review to Active
